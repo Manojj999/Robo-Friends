@@ -1,4 +1,4 @@
-# robofriends
+# My Batch Students
 Tutorial for udemy course - React
 To run the project:
 
