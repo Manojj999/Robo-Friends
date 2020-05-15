@@ -1,5 +1,5 @@
 {
-  "name": "robofriends",
+  "name": "mycollegebuddies",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,5 +27,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "My College Friends",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manojj999/My-Batch.git"
+  },
+  "author": "Manoj Jasoliya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manojj999/My-Batch/issues"
+  },
+  "homepage": "https://github.com/Manojj999/My-Batch#readme"
 }
