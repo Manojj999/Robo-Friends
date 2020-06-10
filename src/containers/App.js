@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundery';
 import './App.css';
 import { SetSearchField , requestRobots} from '../action'
-import thunk from 'redux-thunk';
+// import thunk from 'redux-thunk';
 
 const mapStateToProps = state => {
   return {
@@ -16,12 +16,10 @@ const mapStateToProps = state => {
     error: state.requestRobots.error
   }
 }
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return {
-    onSearchChange: (event) => {
-      dispatch(SetSearchField(event.target.value));
-    }
-    onrequestRobots = () => requestRobots(dispatch)
+    onSearchChange: (event) => dispatch(SetSearchField(event.target.value)),
+    onRequestRobots: () => dispatch(requestRobots())
   }
 }
 
@@ -44,7 +42,7 @@ class App extends Component {
 
     // with Redux-thunk connect
 
-    this.props.onrequestRobots ();
+    this.props.onRequestRobots();
   }
 
 

@@ -1,46 +1,21 @@
 {
-  "name": "mycollegebuddies",
+  "name": "robofriends",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-redux": "^7.2.0",
-    "react-scripts": "^3.4.0",
-    "redux": "^4.0.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0",
-    "tachyons": "^4.11.1"
+    "redux-thunk": "^2.2.0",
+    "tachyons": "^4.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "description": "My College Friends",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Manojj999/My-Batch.git"
-  },
-  "author": "Manoj Jasoliya",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Manojj999/My-Batch/issues"
-  },
-  "homepage": "https://github.com/Manojj999/My-Batch#readme"
+  }
 }
